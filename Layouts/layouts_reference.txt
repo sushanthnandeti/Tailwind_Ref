@@ -3,7 +3,6 @@
 <div class="m-4 grid gap-2 sm:grid-cols-2">
   <div class="min-h-[100px] rounded-lg bg-orange-500 shadow"></div>
   <div class="min-h-[100px] rounded-lg bg-blue-500 shadow"></div>
-  <div></div>
 </div>
 
 <div class="m-4 grid gap-2 sm:grid-cols-3">
@@ -20,3 +19,14 @@
 </div>
 
 // Non - Equal Sections
+
+<div class="m-4 grid grid-cols-1 sm:grid-cols-12">
+  <div class="m-1 min-h-[100px] rounded-lg bg-emerald-500 shadow sm:col-span-2"></div>
+  <div class="m-1 min-h-[100px] rounded-lg bg-red-500 shadow sm:col-span-10"></div>
+</div>
+
+<div class="m-4 grid grid-cols-1 sm:grid-cols-12">
+  <div class="m-1 hidden min-h-[100px] rounded-lg bg-emerald-500 shadow sm:col-span-2 sm:block"></div>
+  <div class="m-1 min-h-[100px] rounded-lg bg-red-500 shadow sm:col-span-8"></div>
+  <div class="m-1 hidden min-h-[100px] rounded-lg bg-blue-500 shadow sm:col-span-2 sm:block"></div>
+</div>
